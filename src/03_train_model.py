@@ -46,8 +46,8 @@ def main() -> None:
     y_test = test_df[TARGET_COLUMN]
 
     # Hiperparâmetros leves para caber em ~2 min no free tier
-    n_estimators = int(os.environ.get("N_ESTIMATORS", "80"))
-    max_depth = int(os.environ.get("MAX_DEPTH", "8"))
+    n_estimators = int(os.environ.get("N_ESTIMATORS", "1"))
+    max_depth = int(os.environ.get("MAX_DEPTH", "1"))
 
     model = RandomForestClassifier(
         n_estimators=n_estimators,
