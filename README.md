@@ -244,3 +244,4 @@ No GitHub-hosted `ubuntu-latest`, espere dezenas de segundos a ~1–2 minutos (c
 - **Aula 22**: como o tráfego muda após o alias
 - **Aula 23**: drift como gatilho de CT que *dispara* este tipo de pipeline
 
+
